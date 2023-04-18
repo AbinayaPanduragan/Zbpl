@@ -1,0 +1,522 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.c {
+  text-align: center;
+}
+.topbar {
+  background-color: #ae1c20;
+  height: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  position: relative;
+}
+.topbar1 {
+  display: inline-block;
+  font-size: 20px;
+}
+.topbarposition {
+  display: inline-block;
+  position: absolute;
+  right: 12%;
+  top: 15%;
+}
+.navigationbar {
+  color: white;
+  height: 65px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+#Logo {
+  width: 75px;
+  height: 65px;
+  display: inline-block;
+}
+.menulogo {
+  font-size: 24px;
+  color: black;
+  display: inline-block;
+  position: absolute;
+  left: 9%;
+}
+.menu1 {
+  font-size: 24px;
+  color: black;
+  display: inline-block;
+  padding: 5px 15px;
+}
+.menugroup {
+  display: inline-block;
+  position: absolute;
+  right: 9.5%;
+  top: 25%;
+}
+.menulink {
+  font-size: 24px;
+  color: black;
+  display: inline-block;
+  text-decoration: none;
+}
+#img {
+  background-color: #e5e6e4;
+}
+#featureimg {
+  width: 100%;
+}
+.H2A {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  margin: 30px;
+}
+.H2A1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  margin: 0px 30px;
+}
+.para01 {
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  padding: 5px;
+  margin: 5px 100px;
+}
+.stats {
+  height: 280px;
+  width: 100%;
+  background-color: #e5e6e4;
+  display: inline-block;
+  margin: auto;
+  position: relative;
+}
+
+.statstext {
+  color: #ae1c20;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.statsgroup {
+  display: inline-block;
+  width: 20%;
+  padding: 30px;
+}
+.statslogo {
+  height: 120px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+.center1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+p {
+  margin: 5px;
+}
+.statslogos {
+  width: 95%;
+  margin: 0 auto;
+}
+.projects {
+  height: 720px;
+  background-color: #e5e6e4;
+}
+.withbackground {
+  padding: 30px 0px 0px 0px;
+}
+.projimgdetails {
+  background-color: white;
+  height: 500px;
+  width: 29%;
+  position: relative;
+  display: inline-block;
+  margin: 0px 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.projectdetails {
+  position: relative;
+}
+
+.projimg {
+  height: 365px;
+  width: 95%;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.center-cropped {
+  object-fit: cover;
+  object-position: center;
+  height: 370px;
+  width: 95%;
+}
+.det {
+  display: inline-block;
+}
+.p2 {
+  font-size: 20px;
+  margin: 0px 10px;
+}
+.p3 {
+  font-size: 20px;
+}
+.p4 {
+  font-size: 12px;
+}
+
+.right {
+  position: absolute;
+  left: 65%;
+}
+.Bold {
+  font-weight: bold;
+}
+.space {
+  height: 5px;
+}
+.spacing {
+  height: 30px;
+}
+.btn {
+  background-color: #ae1c20;
+  margin: 0 auto;
+  height: 50px;
+  width: 300px;
+
+  border-radius: 25px;
+  border: none;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btntxt {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.testi {
+  height: 300px;
+  position: relative;
+  background-color: #e5e6e4;
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.pic {
+  width: 250px;
+  display: inline-block;
+  margin: auto 100px;
+  position: absolute;
+  top: 55px;
+}
+.dp {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0% 10%;
+}
+.testigp {
+  display: inline-block;
+  height: 80%;
+  width: 55%;
+  margin: auto 100px;
+  position: relative;
+  left: 25%;
+  top: 40px;
+}
+.quotes {
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  right: 0%;
+  bottom: 10%;
+}
+.quotes-rotate {
+  height: 48px;
+  width: 48px;
+  rotate: 180deg;
+}
+
+.text {
+  text-align: center;
+  font-size: 20px;
+}
+.subscribe {
+  height: 250px;
+  background-color: #e5e6e4;
+  position: relative;
+}
+.sub01 {
+  margin: 50px 50px;
+}
+.sub02 {
+  width: 600px;
+}
+.subpart {
+  width: 600px;
+}
+.form02 {
+  display: inline-block;
+}
+.form {
+  width: 300px;
+  height: 40px;
+  border-color: #000;
+  border-width: 1px;
+  background-color: white;
+}
+.p2.form02 {
+  margin: 5px;
+}
+.footer {
+  height: 300px;
+  background-color: #e5e6e4;
+}
+
+.logo {
+  width: 240px;
+}
+.footerparts {
+  margin: 0px 50px;
+}
+.footerlinks {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  margin: 30px;
+}
+
+.footericons {
+  width: 25px;
+  position: absolute;
+  top: 0%;
+}
+.mar {
+  margin: 0px 30px;
+  width: 420px;
+  height: 30px;
+  position: relative;
+}
+.mar01 {
+  margin: 0px 30px;
+  width: 420px;
+  position: relative;
+}
+.mar02 {
+  margin: 0px 30px;
+  width: 600px;
+  position: relative;
+}
+.H2 {
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+}
+.footertext {
+  margin: 0px 40px;
+}
+.footerpart {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.credentials{
+  background-color: #e5e6e4;
+  height: 300px;
+}
+.credgp{
+  display: inline-block;
+  width: 32%;
+  height: 300px;
+  position: relative;
+}
+.credlogo{
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 30%;
+}
+.credlogo1{
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 39%;
+}
+.credlogo2{
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  padding: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  right: 35%;
+}
+.bai{
+  height: 120px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.ici{
+  height: 120px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+.iov{
+  width: 120px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.align{
+  position: absolute;
+   left: 5%;
+   top: 65%;
+}
+.disinline-block{
+display: inline-block;
+width: 49%;
+}
+.para02 {
+  
+  display: inline-block;
+  font-size: 20px;
+  color: #000;
+  text-align: left;
+  padding: 5px;
+  margin: 5px 100px;
+}
+li{
+  padding: 5px 20px;
+}
+
+.missionimg{
+  display: inline-block;
+  height: 360px;
+  width: 480px;
+  margin: 30px;
+  padding: 5px;
+
+}
+.mission{
+  height: 420px;
+  position: relative;
+}
+.missionstatement{
+  width: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0%;
+}
+.missionimg1{
+  width: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 0%;
+  left: 57%;
+}
+.cred02{
+  height: 550px;
+  padding: 30px;
+  background-color: #e5e6e4;
+  margin: 0 auto;
+}
+.credimggroup{
+  width: 49%;
+  display: inline-block;
+}
+.credimgdetails {
+  background-color: white;
+  height: 385px;
+  position: relative;
+  margin: 0px 30px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+.credimgdetails {
+  position: relative;
+}
+
+.credimg {
+  height: 365px;
+  width: 97%;
+  position: relative;
+  margin: 10px
+}
+.creddetails{
+  margin: 5px;
+}
+.credimgs{
+  margin: 0 auto;
+}
+.map{
+  margin: 30px 100px;
+}
+.project{
+  background-color: white;
+}
+.left.carousel-control{
+  background-image: none !important;
+}
+.right.carousel-control{
+  background-image: none !important;
+}
+.glyphicon-chevron-right:before {
+ color: #ae1c20; 
+}
+.glyphicon-chevron-left:before {
+  color: #ae1c20; 
+ }
+ #myCarousel{
+   margin-bottom: 30px;
+ }
+
+ .carousel-inner{
+overflow: visible !important;
+ }
+ .carousel-indicators li{
+  border: 1px solid #ae1c20 !important;
+
+ }
+ .carousel-indicators .active{
+  background-color: #ae1c20 !important;
+ }
+ 
+ .carousel-indicators{
+   bottom: 10px !important;
+ }
