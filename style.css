@@ -34,7 +34,7 @@
   position: relative;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
-.navigationbar a.active{
+.navigationbar a.active {
   text-decoration: underline;
 }
 #Logo {
@@ -102,7 +102,7 @@
   margin: auto;
   position: relative;
 }
-img{
+img {
   vertical-align: top !important;
 }
 .statstext {
@@ -114,7 +114,7 @@ img{
 }
 .statsgroup {
   display: inline-block;
-  width: 22%;
+  width: 24%;
   padding: 30px;
 }
 .statslogo {
@@ -148,11 +148,12 @@ p {
 .withbackground {
   padding: 30px 0px 0px 0px;
 }
-.projdetails{
+.projdetails {
   margin-top: 10px;
 }
 .projimgdetails {
   background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.068);
   height: 500px;
   width: 29%;
   position: relative;
@@ -356,17 +357,17 @@ p {
   margin: 0 auto;
 }
 
-.credentials{
+.credentials {
   background-color: #e5e6e4;
   height: 300px;
 }
-.credgp{
+.credgp {
   display: inline-block;
   width: 32%;
   height: 300px;
   position: relative;
 }
-.credlogo{
+.credlogo {
   background-color: white;
   height: 150px;
   width: 150px;
@@ -376,7 +377,7 @@ p {
   top: 5%;
   right: 30%;
 }
-.credlogo1{
+.credlogo1 {
   background-color: white;
   height: 150px;
   width: 150px;
@@ -384,9 +385,9 @@ p {
   border-radius: 50%;
   position: absolute;
   top: 5%;
-  right: 39%;
+  right: 43%;
 }
-.credlogo2{
+.credlogo2 {
   background-color: white;
   height: 150px;
   width: 150px;
@@ -396,35 +397,34 @@ p {
   top: 5%;
   right: 35%;
 }
-.bai{
-  height: 120px;
+.bai {
+  height: 110px;
+  position: absolute;
+  top: 11%;
+  left: 11%;
+}
+.ici {
+  height: 100px;
   position: absolute;
   top: 15%;
-  left: 15%;
+  left: 19%;
 }
-.ici{
-  height: 120px;
+.iov {
+  width: 110px;
   position: absolute;
-  top: 15%;
-  left: 15%;
+  top: 37%;
+  left: 17%;
 }
-.iov{
-  width: 120px;
+.align {
   position: absolute;
-  top: 40%;
-  left: 20%;
+  left: 5%;
+  top: 65%;
 }
-.align{
-  position: absolute;
-   left: 5%;
-   top: 65%;
-}
-.disinline-block{
-display: inline-block;
-width: 49%;
+.disinline-block {
+  display: inline-block;
+  width: 49%;
 }
 .para02 {
-  
   display: inline-block;
   font-size: 20px;
   color: #000;
@@ -432,42 +432,41 @@ width: 49%;
   padding: 5px;
   margin: 5px 100px;
 }
-li{
+li {
   padding: 5px 20px;
 }
 
-.missionimg{
+.missionimg {
   display: inline-block;
   height: 360px;
   width: 480px;
   margin: 30px;
   padding: 5px;
-
 }
-.mission{
-  height: 420px;
+.mission {
+  height: 450px;
   position: relative;
 }
-.missionstatement{
+.missionstatement {
   width: 60%;
   display: inline-block;
   position: absolute;
   top: 0%;
 }
-.missionimg1{
+.missionimg1 {
   width: 50%;
   display: inline-block;
   position: absolute;
   top: 0%;
   left: 57%;
 }
-.cred02{
-  height: 550px;
+.cred02 {
+  height: 620px;
   padding: 30px;
   background-color: #e5e6e4;
   margin: 0 auto;
 }
-.credimggroup{
+.credimggroup {
   width: 49%;
   display: inline-block;
 }
@@ -486,47 +485,46 @@ li{
   height: 365px;
   width: 97%;
   position: relative;
-  margin: 10px
+  margin: 10px;
 }
-.creddetails{
+.creddetails {
   margin: 5px;
 }
-.credimgs{
+.credimgs {
   margin: 0 auto;
 }
-.map{
+.map {
   margin: 30px 100px;
 }
-.project{
+.project {
   background-color: white;
 }
-.left.carousel-control{
+.left.carousel-control {
   background-image: none !important;
 }
-.right.carousel-control{
+.right.carousel-control {
   background-image: none !important;
 }
 .glyphicon-chevron-right:before {
- color: #ae1c20; 
+  color: #ae1c20;
 }
 .glyphicon-chevron-left:before {
-  color: #ae1c20; 
- }
- #myCarousel{
-   margin-bottom: 30px;
- }
+  color: #ae1c20;
+}
+#myCarousel {
+  margin-bottom: 30px;
+}
 
- .carousel-inner{
-overflow: visible !important;
- }
- .carousel-indicators li{
+.carousel-inner {
+  overflow: visible !important;
+}
+.carousel-indicators li {
   border: 1px solid #ae1c20 !important;
-
- }
- .carousel-indicators .active{
+}
+.carousel-indicators .active {
   background-color: #ae1c20 !important;
- }
- 
- .carousel-indicators{
-   bottom: 10px !important;
- }
+}
+
+.carousel-indicators {
+  bottom: 10px !important;
+}
