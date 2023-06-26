@@ -6,7 +6,6 @@
 }
 .topbar {
   background-color: #ae1c20;
-  height: 30px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
@@ -16,69 +15,73 @@
 }
 .topbar1 {
   display: inline-block;
-  font-size: 20px;
+  font-size: 125%;
 }
-.topbarposition {
-  display: inline-block;
-  position: absolute;
-  right: 12%;
-  top: 15%;
-}
+
 .navigationbar {
+  width: 100%;
   color: white;
-  height: 75px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
-.navigationbar a.active {
-  text-decoration: underline;
+.active {
+  text-decoration: underline !important;
+  text-decoration: #000;
 }
+a {
+  color: #000;
+}
+.navbar {
+  margin-bottom: 0%;
+}
+
 #Logo {
-  width: 75px;
-  height: 55px;
+  height: 45px;
+  margin-top: -15px;
   display: inline-block;
+}
+.navbar-brand {
+  height: 100%;
 }
 .menulogo {
-  font-size: 24px;
+  font-size: 150%;
   color: black;
   display: inline-block;
-  position: absolute;
   left: 9%;
 }
 .menu1 {
-  font-size: 24px;
+  font-size: 150%;
   color: black;
   display: inline-block;
   padding: 5px 15px;
 }
-.menugroup {
-  display: inline-block;
-  position: absolute;
-  right: 9.5%;
-  top: 25%;
-}
+
 .menulink {
-  font-size: 24px;
+  font-size: 150%;
   color: black;
   display: inline-block;
   text-decoration: none;
 }
-#img {
-  background-color: #e5e6e4;
-}
+
 #featureimg {
   width: 100%;
 }
 .H2A {
-  font-size: 30px;
+  font-size: 200%;
   font-weight: bold;
   color: black;
   padding: 5px;
-  margin: 30px;
+  margin: 30px 0px;
+}
+.H2A2 {
+  font-size: 200%;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+  margin: 30px 30px 10px 30px;
 }
 .H2A1 {
   font-size: 30px;
@@ -88,14 +91,13 @@
   margin: 0px 30px;
 }
 .para01 {
-  font-size: 20px;
+  font-size: 150%;
   color: #000;
   text-align: center;
-  padding: 5px;
-  margin: 5px 100px;
+  padding: 1%;
+  margin: 1% 10%;
 }
 .stats {
-  height: 280px;
   width: 100%;
   background-color: #e5e6e4;
   display: inline-block;
@@ -104,25 +106,24 @@
 }
 img {
   vertical-align: top !important;
+  height: 100%;
+  margin: auto;
 }
+
 .statstext {
   color: #ae1c20;
-  font-size: 20px;
+  font-size: 125%;
   font-weight: bold;
   text-align: center;
-  margin-top: 25px;
 }
 .statsgroup {
   display: inline-block;
-  width: 24%;
   padding: 30px;
 }
 .statslogo {
   height: 120px;
   padding: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+  margin: auto;
 }
 .center {
   margin-left: auto;
@@ -142,12 +143,9 @@ p {
   margin: 0 auto;
 }
 .projects {
-  height: 720px;
   background-color: #e5e6e4;
 }
-.withbackground {
-  padding: 30px 0px 0px 0px;
-}
+
 .projdetails {
   margin-top: 10px;
 }
@@ -155,10 +153,9 @@ p {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.068);
   height: 500px;
-  width: 29%;
   position: relative;
   display: inline-block;
-  margin: 0px 30px;
+  margin: 20px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .projectdetails {
@@ -177,31 +174,31 @@ p {
   object-fit: cover;
   object-position: center;
   height: 370px;
-  width: 95%;
+  width: 94%;
 }
 .det {
   display: inline-block;
 }
 .p2 {
-  font-size: 20px;
-  margin: 0px 10px;
+  font-size: 125%;
+  margin: 1% 2.5%;
 }
 .p3 {
-  font-size: 20px;
+  font-size: 150%;
 }
 .p4 {
-  font-size: 12px;
+  font-size: 100%;
 }
 
 .right {
   position: absolute;
-  left: 65%;
+  left: 61%;
 }
 .Bold {
   font-weight: bold;
 }
 .space {
-  height: 5px;
+  height: 50%;
 }
 .spacing {
   height: 30px;
@@ -220,7 +217,7 @@ p {
   align-items: center;
 }
 .btntxt {
-  font-size: 24px;
+  font-size: 150%;
   font-weight: bold;
   color: white;
   text-decoration: none;
@@ -230,8 +227,6 @@ p {
 }
 
 .testi {
-  height: 300px;
-  position: relative;
   background-color: #e5e6e4;
   margin: 0 auto;
   width: 75%;
@@ -241,41 +236,35 @@ p {
 .pic {
   width: 250px;
   display: inline-block;
-  margin: auto 100px;
-  position: absolute;
-  top: 55px;
+  margin: auto 50px;
 }
 .dp {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   margin: 0% 10%;
 }
 .testigp {
   display: inline-block;
   height: 80%;
-  width: 55%;
-  margin: auto 100px;
-  position: relative;
-  left: 25%;
-  top: 40px;
+  width: 95%;
+  margin: auto 2%;
 }
 .quotes {
   height: 48px;
   width: 48px;
-  position: absolute;
-  right: 0%;
-  bottom: 10%;
 }
 .quotes-rotate {
   height: 48px;
   width: 48px;
   rotate: 180deg;
+  display: inline-block;
 }
 
 .text {
   text-align: center;
-  font-size: 20px;
+  font-size: 125%;
+  display: inline-block;
 }
 .subscribe {
   height: 250px;
@@ -293,6 +282,8 @@ p {
 }
 .form02 {
   display: inline-block;
+  margin: auto;
+  width: 100%;
 }
 .form {
   width: 300px;
@@ -301,43 +292,36 @@ p {
   border-width: 1px;
   background-color: white;
 }
-.p2.form02 {
-  margin: 5px;
-}
+
 .footer {
-  margin-top: 50px;
-  height: 320px;
+  margin-top: 5%;
   background-color: #e5e6e4;
+  padding-bottom: 2%;
 }
 
 .logo {
   width: 240px;
+  margin-top: 15%;
 }
-.footerparts {
-  margin: 0px 50px;
-}
+
 .footerlinks {
   color: black;
   text-decoration: none;
   padding: 5px;
-  margin: 30px;
 }
 
 .footericons {
-  width: 25px;
+  width: 10%;
   position: absolute;
   top: 0%;
 }
 .mar {
-  margin: 0px 30px;
-  width: 420px;
   height: 30px;
   position: relative;
 }
 .mar01 {
-  margin: 0px 30px;
-  width: 420px;
   position: relative;
+  width: 100%;
 }
 .mar02 {
   margin: 0px 30px;
@@ -345,16 +329,12 @@ p {
   position: relative;
 }
 .H2 {
-  font-size: 30px;
+  font-size: 150%;
   margin: 0px;
   text-align: center;
 }
 .footertext {
-  margin: 0px 40px;
-}
-.footerpart {
-  width: 90%;
-  margin: 0 auto;
+  margin: 0% 10%;
 }
 
 .credentials {
@@ -426,7 +406,7 @@ p {
 }
 .para02 {
   display: inline-block;
-  font-size: 20px;
+  font-size: 150%;
   color: #000;
   text-align: left;
   padding: 5px;
