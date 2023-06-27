@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zenith Builders - Home</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
+
 </head>
 
 <body>
     <header>
+        <div>
         <div class="topbar">
             <div class="container">
                 <div class="row">
@@ -32,73 +33,78 @@
 
         <nav class="navbar navbar-default navigationbar">
             <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>                        
-                </button>
-                <a class="navbar-brand" href=><img id="Logo" src="./Logo/lgog.svg"
-                    alt="Zenith Builders Logo"></a>
-              </div>
-              <div class="collapse navbar-collapse pull-right" id="myNavbar">
-                <ul class="nav navbar-nav">
-                  <li class="active menu1"><a href="index.html">Home</a></li>
-                   <li class="menu1"><a href="about-us.html">About Us</a></li>
-                  <li class="menu1"><a href="projects.html">Projects</a></li>
-                </ul>
-              </div>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=><img id="Logo" src="./Logo/lgog.svg" alt="Zenith Builders Logo"></a>
+                </div>
+                <div class="collapse navbar-collapse pull-right" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="act menu1"><a href="index.html">Home</a></li>
+                        <li class="menu1"><a href="about-us.html">About Us</a></li>
+                        <li class="menu1"><a href="projects.html">Projects</a></li>
+                    </ul>
+                </div>
             </div>
-          </nav>
-    
-            
-            
+        
+        </nav>
+    </div>
+
+
+
     </header>
     <main>
-    
-        <div>
+        <div class="hidden-xs hidden-sm">
+            <!-- hide on screens smaller than lg -->
             <img id="featureimg" src="./Images/featureimg/Frame 1.png" alt="Feature Images">
+        </div>
+        <div class="hidden-md hidden-lg">
+            <!-- hide on screens wider than lg -->
+            <img id="featureimg" src="./Images/featureimg/Frame 2.png" alt="Feature Images">
         </div>
         <div class="stats">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="statslogos">
                             <div class="statsgroup">
-                                <div class="statslogo"> <img src="./Images/icons/home/Frame 2.svg" alt="35+"
+                                <div class="statslogo center1"> <img src="./Images/icons/home/Frame 2.svg" alt="35+"
                                         class="img-fluid"></div>
-                                <div class="statstext">
+                                <div class="statstext c">
                                     <p>Years of</p>
                                     <p>Experience</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="statsgroup">
                             <div class="statslogo center1"><img src="./Images/icons/home/18531432621599996549 1.svg"
                                     alt="" class="img-fluid"></div>
-                            <div class="statstext">
+                            <div class="statstext c">
                                 <p> 3.40+ Lakhs </p>
                                 <p> sq.ft of Built-Up Area</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="statsgroup">
                             <div class="statslogo center1"><img src="./Images/icons/home/apartment_black_24dp 1.svg"
                                     alt="" class="img-fluid"></div>
-                            <div class="statstext">
+                            <div class="statstext c">
                                 <p> 44+ </p>
                                 <p> Successful Projects</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3">
                         <div class="statsgroup">
                             <div class="statslogo center"><img src="./Images/icons/home/Frame 3.svg" alt=""
                                     class="img-fluid"></div>
-                            <div class="statstext">
+                            <div class="statstext c">
                                 <p> 300+ </p>
                                 <p> Happy Customers</p>
                             </div>
@@ -106,8 +112,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
         </div>
 
         <div class="container">
@@ -144,7 +148,7 @@
                                         <p class="p2">BESANT NAGAR</p>
                                         <p class="space"></p>
                                         <p class="p2 Bold det">6300 SQ.FT.</p>
-                                        <p class="p2 Bold det right">3 UNITS</p>
+                                        <p class="p2 Bold det pull-right">3 UNITS</p>
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +164,7 @@
                                 <p class="p2">PAMMAL</p>
                                 <p class="space"></p>
                                 <p class="p2 Bold det">4200 SQ.FT.</p>
-                                <p class="p2 Bold det right">6 UNITS</p>
+                                <p class="p2 Bold det pull-right">6 UNITS</p>
                             </div>
                         </div>
                     </div>
@@ -173,7 +177,7 @@
                                 <p class="p2">KK NAGAR</p>
                                 <p class="space"></p>
                                 <p class="p2 Bold det">7200 SQ.FT.</p>
-                                <p class="p2 Bold det right">5 UNITS</p>
+                                <p class="p2 Bold det pull-right">5 UNITS</p>
                             </div>
                         </div>
                     </div>
@@ -186,13 +190,7 @@
             </div>
             <p class="spacing"></p>
         </div>
-        </div>
         <div>
-        </div>
-
-
-
-        </div>
         <div>
             <div class="H2A c">
                 TESTIMONIALS
@@ -202,7 +200,7 @@
             <div class="row">
                 <div class="col-12">
 
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div id="myCarousel" class="carousel" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -211,88 +209,115 @@
                         </ol>
 
 
-  
-<!-- Wrapper for slides -->
-<div class="carousel-inner">
-    <div class="item active">
-        <div>
-            <div class="container testi">
-                <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <div>
-                            <div class="pic">
-                                <img class="dp" src="./Images/Profile Photo/matheus-ferrero-W7b3eDUb_2I-unsplash (1).jpg" alt="Customer Name">
-                                <p class="customername Bold p2 c">CUSTOMER NAME</p>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div>
+                                    <div class="container testi">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4">
+                                                <div>
+                                                    <div class="pic">
+                                                        <img class="dp"
+                                                            src="./Images/Profile Photo/dp3.jpg"
+                                                            alt="Customer Name">
+                                                        <p class="customername Bold p2 c">CUSTOMER NAME</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-12 col-lg-8">
+                                                <div class="testigp">
+                                                    <img class="quotes-rotate"
+                                                        src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg"
+                                                        alt="Quote">
+                                                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit, sed
+                                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                        Ut enim
+                                                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                                        ut
+                                                        aliquip ex ea commodo consequat. </p>
+                                                    <img class="quotes pull-right"
+                                                        src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg"
+                                                        alt="Quote">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="container testi">
+                                        <div class="row">
+                                            <div class=" col-12 col-lg-4">
+                                                <div>
+                                                    <div class="pic">
+                                                        <img class="dp"
+                                                            src="./Images/Profile Photo/dp2.jpg"
+                                                            alt="Customer Name">
+                                                        <p class="customername Bold p2 c">CUSTOMER NAME</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-12 col-lg-8">
+                                                <div class="testigp">
+                                                    <img class="quotes-rotate"
+                                                        src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg"
+                                                        alt="Quote">
+                                                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit, sed
+                                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                        Ut enim
+                                                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                                        ut
+                                                        aliquip ex ea commodo consequat. </p>
+                                                    <img class="quotes pull-right"
+                                                        src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg"
+                                                        alt="Quote">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="container testi">
+                                        <div class="row">
+                                            <div class=" col-12 col-lg-4">
+                                                <div>
+                                                    <div class="pic">
+                                                        <img class="dp"
+                                                            src="./Images/Profile Photo/dp1.jpg"
+                                                            alt="Customer Name">
+                                                        <p class="customername Bold p2 c">CUSTOMER NAME</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" col-12 col-lg-8">
+                                                <div class="testigp">
+                                                    <img class="quotes-rotate"
+                                                        src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg"
+                                                        alt="Quote">
+                                                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                                        elit, sed
+                                                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                        Ut enim
+                                                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                                                        ut
+                                                        aliquip ex ea commodo consequat. </p>
+                                                    <img class="quotes pull-right"
+                                                        src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg"
+                                                        alt="Quote">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class=" col-12 col-lg-6">
-                        <div class="testigp">
-                            <img class="quotes-rotate" src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg" alt="Quote">
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                            aliquip ex ea commodo consequat. </p>
-                            <img class="quotes" src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg" alt="Quote">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="item">
-        <div>
-            <div class="container testi">
-                <div class="row">
-                    <div class=" col-12 col-lg-6">
-                        <div>
-                            <div class="pic">
-                                <img class="dp" src="./Images/Profile Photo/matheus-ferrero-W7b3eDUb_2I-unsplash (1).jpg"alt="Customer Name">
-                                <p class="customername Bold p2 c">CUSTOMER NAME</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-12 col-lg-6">
-                            <div class="testigp">
-                                <img class="quotes-rotate" src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg" alt="Quote">
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                aliquip ex ea commodo consequat. </p>
-                                <img class="quotes" src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg"alt="Quote">
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="item">
-        <div>
-            <div class="container testi">
-                <div class="row">
-                    <div class=" col-12 col-lg-6">
-                        <div>
-                            <div class="pic">
-                                <img class="dp" src="./Images/Profile Photo/matheus-ferrero-W7b3eDUb_2I-unsplash (1).jpg"alt="Customer Name">
-                                <p class="customername Bold p2 c">CUSTOMER NAME</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-12 col-lg-6">
-                            <div class="testigp">
-                                <img class="quotes-rotate" src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg" alt="Quote">
-                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                                aliquip ex ea commodo consequat. </p>
-                                <img class="quotes" src="./Images/icons/home/format_quote_FILL0_wght0_GRAD0_opszNaN.svg"alt="Quote">
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
                         <!-- Left and right controls -->
                         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -308,45 +333,40 @@
             </div>
         </div>
     </div>
-
     </main>
     <footer>
         <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-3">
+                    <div class="col-12 col-lg-4">
                         <div class="form02">
-                            <img class="logo img-fluid" src="./Logo/lgog.svg" alt="logo">
+                            <img class="logo img-fluid center" src="./Logo/lgog.svg" alt="logo">
                             <p class="H2">Builders Pvt Ltd</p>
                         </div>
                     </div>
 
-                    <div class="col-12 col-lg-6">
+                    <div class="col-12 col-lg-5">
                         <div class="form02">
                             <p class="H2A Bold">Zenith Builders Pvt. Ltd.</p>
                             <div class="mar01">
-                                <img class="footericons form02" src="./Images/icons/home/location_on_black_24dp.svg"
-                                    alt="location">
                                 <div class="form02 footertext">
-                                    <p class="p2">No. 80/5, T.M.Maistry Street,</p>
-                                    <p class="p2">Vananthurai, Chennai-600041</p>
-                                    <p class="p2">Tamil Nadu, India</p>
+                                    <p class="p2 glyphicon glyphicon-map-marker"><span> No. 80/5, T.M.Maistry
+                                            Street,</span></p>
+                                    <p class="p2 mar02"> Vananthurai, Chennai-600041</p>
+                                    <p class="p2 mar02"> Tamil Nadu, India</p>
                                 </div>
                             </div>
                             <p class="space"></p>
                             <div class="mar">
-                                <img class="footericons form02" src="./Images/icons/home/call_black_24dp.svg"
-                                    alt="call">
                                 <div class="form02 footertext">
-                                    <p class="p2">+919840137876</p>
+                                    <p class="p2"><span class="glyphicon glyphicon-earphone"></span> +919840137876</p>
                                 </div>
                             </div>
                             <p class="space"></p>
                             <div class="mar">
-                                <img class="footericons form02" src="./Images/icons/home/email_black_24dp.svg"
-                                    alt="Email Id">
                                 <div class="form02 footertext">
-                                    <p class="p2">zenithbuilder@gmail.com</p>
+                                    <p class="p2"><span class="glyphicon glyphicon-envelope"></span>
+                                        zenithbuilder@gmail.com</p>
                                 </div>
                             </div>
                         </div>

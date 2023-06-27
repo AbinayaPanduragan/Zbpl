@@ -21,13 +21,13 @@
 .navigationbar {
   width: 100%;
   color: white;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 1%;
   padding-bottom: 1%;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
-.active {
+.act {
   text-decoration: underline !important;
   text-decoration: #000;
 }
@@ -39,12 +39,12 @@ a {
 }
 
 #Logo {
-  height: 45px;
-  margin-top: -15px;
+  height: 65px;
   display: inline-block;
 }
 .navbar-brand {
   height: 100%;
+  padding: 0%;
 }
 .menulogo {
   font-size: 150%;
@@ -70,11 +70,11 @@ a {
   width: 100%;
 }
 .H2A {
-  font-size: 200%;
+  font-size: 175%;
   font-weight: bold;
   color: black;
   padding: 5px;
-  margin: 30px 0px;
+  margin: 10px 0px;
 }
 .H2A2 {
   font-size: 200%;
@@ -117,33 +117,32 @@ img {
   text-align: center;
 }
 .statsgroup {
-  display: inline-block;
-  padding: 30px;
+  padding: 10%;
 }
 .statslogo {
   height: 120px;
-  padding: 15px;
+  padding: 1%;
   margin: auto;
 }
 .center {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
 }
 .center1 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
+  margin: auto;
+  width: 50%;
 }
 p {
   margin: 5px;
 }
 .statslogos {
-  width: 95%;
   margin: 0 auto;
 }
 .projects {
   background-color: #e5e6e4;
+  padding-bottom: 25px;
 }
 
 .projdetails {
@@ -153,9 +152,8 @@ p {
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.068);
   height: 500px;
-  position: relative;
-  display: inline-block;
-  margin: 20px;
+  width: 350px;
+  margin: 20px auto;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .projectdetails {
@@ -190,10 +188,6 @@ p {
   font-size: 100%;
 }
 
-.right {
-  position: absolute;
-  left: 61%;
-}
 .Bold {
   font-weight: bold;
 }
@@ -201,7 +195,7 @@ p {
   height: 50%;
 }
 .spacing {
-  height: 30px;
+  height: 2px;
 }
 .btn {
   background-color: #ae1c20;
@@ -235,20 +229,16 @@ p {
 }
 .pic {
   width: 250px;
-  display: inline-block;
-  margin: auto 50px;
+  margin: 5% 5% 15% 5%;
 }
 .dp {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  margin: 0% 10%;
+  margin: 10% 10% 5% 10%;
 }
 .testigp {
-  display: inline-block;
-  height: 80%;
-  width: 95%;
-  margin: auto 2%;
+  margin: 5% 10%;
 }
 .quotes {
   height: 48px;
@@ -258,13 +248,11 @@ p {
   height: 48px;
   width: 48px;
   rotate: 180deg;
-  display: inline-block;
 }
 
 .text {
   text-align: center;
   font-size: 125%;
-  display: inline-block;
 }
 .subscribe {
   height: 250px;
@@ -292,22 +280,34 @@ p {
   border-width: 1px;
   background-color: white;
 }
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
 
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 .footer {
-  margin-top: 5%;
   background-color: #e5e6e4;
   padding-bottom: 2%;
+  margin-top: 1%;
 }
 
 .logo {
   width: 240px;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .footerlinks {
   color: black;
   text-decoration: none;
-  padding: 5px;
 }
 
 .footericons {
@@ -317,93 +317,56 @@ p {
 }
 .mar {
   height: 30px;
-  position: relative;
 }
 .mar01 {
   position: relative;
   width: 100%;
 }
 .mar02 {
-  margin: 0px 30px;
-  width: 600px;
+  margin: 0px 35px;
   position: relative;
+}
+.mar03 {
+  margin: 0px 25px;
 }
 .H2 {
   font-size: 150%;
   margin: 0px;
   text-align: center;
 }
-.footertext {
-  margin: 0% 10%;
-}
 
 .credentials {
   background-color: #e5e6e4;
-  height: 300px;
 }
 .credgp {
-  display: inline-block;
-  width: 32%;
-  height: 300px;
-  position: relative;
+  padding: 2%;
+  margin: 2%;
 }
+
 .credlogo {
   background-color: white;
   height: 150px;
   width: 150px;
   padding: 15px;
   border-radius: 50%;
-  position: absolute;
-  top: 5%;
-  right: 30%;
+  margin: auto;
 }
-.credlogo1 {
-  background-color: white;
-  height: 150px;
-  width: 150px;
-  padding: 15px;
-  border-radius: 50%;
-  position: absolute;
-  top: 5%;
-  right: 43%;
-}
-.credlogo2 {
-  background-color: white;
-  height: 150px;
-  width: 150px;
-  padding: 15px;
-  border-radius: 50%;
-  position: absolute;
-  top: 5%;
-  right: 35%;
-}
+
 .bai {
-  height: 110px;
-  position: absolute;
-  top: 11%;
-  left: 11%;
+  height: 90%;
+  margin: auto;
 }
 .ici {
-  height: 100px;
-  position: absolute;
-  top: 15%;
-  left: 19%;
+  width: 80%;
+  height: 80%;
+  margin: 10% 10%;
 }
 .iov {
-  width: 110px;
-  position: absolute;
-  top: 37%;
-  left: 17%;
+  width: 90%;
+  height: 50%;
+  margin: 25% 7%;
 }
-.align {
-  position: absolute;
-  left: 5%;
-  top: 65%;
-}
-.disinline-block {
-  display: inline-block;
-  width: 49%;
-}
+
 .para02 {
   display: inline-block;
   font-size: 150%;
@@ -415,67 +378,38 @@ p {
 li {
   padding: 5px 20px;
 }
+.missionstatement {
+  margin: 5% 5%;
+}
 
 .missionimg {
-  display: inline-block;
   height: 360px;
-  width: 480px;
-  margin: 30px;
+  width: 100%;
+  margin: 5%;
   padding: 5px;
 }
-.mission {
-  height: 450px;
-  position: relative;
-}
-.missionstatement {
-  width: 60%;
-  display: inline-block;
-  position: absolute;
-  top: 0%;
-}
-.missionimg1 {
-  width: 50%;
-  display: inline-block;
-  position: absolute;
-  top: 0%;
-  left: 57%;
-}
+
 .cred02 {
-  height: 620px;
   padding: 30px;
   background-color: #e5e6e4;
-  margin: 0 auto;
 }
-.credimggroup {
-  width: 49%;
-  display: inline-block;
-}
+
 .credimgdetails {
   background-color: white;
-  height: 385px;
-  position: relative;
-  margin: 0px 30px;
+  margin: 20px 0px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
-.credimgdetails {
-  position: relative;
 }
 
 .credimg {
-  height: 365px;
-  width: 97%;
-  position: relative;
-  margin: 10px;
+  height: 95%;
+  width: 98%;
+  margin: 1%;
 }
-.creddetails {
-  margin: 5px;
-}
+
 .credimgs {
   margin: 0 auto;
 }
-.map {
-  margin: 30px 100px;
-}
+
 .project {
   background-color: white;
 }
